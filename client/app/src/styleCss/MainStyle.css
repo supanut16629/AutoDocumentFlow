@@ -1,0 +1,449 @@
+.container-Home{
+    display: flex;
+    width: calc(100vw - 260px);
+    flex-direction: column;
+}
+
+.container-doc-flow-1{
+    border-bottom: 1px solid;
+}
+.container-doc-flow{
+    display: flex;
+    width: calc(100vw - 260px);
+    flex-direction: column;
+}
+.container-fav-doc-flow{
+    display: flex;
+    width: calc(100vw - 260px);
+    flex-direction: column;
+}
+h1{
+    font-size: 25px;
+    margin: 1rem;
+}
+.container-fav-doc-flow-2{
+    
+}
+
+.frame-all-render-flow{
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    max-height:500px;
+    background-color: rgb(219, 228, 229);
+    overflow-y: auto;
+}
+
+.box-doc-flow{
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content:flex-start;
+    height: 70px;
+    width: 18.5%;
+    min-width: 200px;
+    background-color: #4b99ff;
+    margin: 0.25rem 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+}
+.box-doc-flow:hover {
+    background-color: #559eff; 
+  }
+  
+.box-doc-flow:active {
+    background-color: #1c3c6b; /* Change background color on active/pressed state */
+}
+
+.box-doc-flow .label{
+    margin-left:1rem;
+    display: flex;
+    flex:12;
+}
+
+.box-doc-flow .btn-fav-star{
+    display: flex;
+    flex:1;
+    margin-right: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.box-doc-flow .btn-fav-star .star-empty{
+    color:rgb(0, 0, 0);
+}
+.box-doc-flow .btn-fav-star .star-empty:hover{
+    color:aliceblue;
+}
+
+.box-doc-flow .btn-fav-star .star{
+    color:rgb(255, 208, 0);
+}
+.box-doc-flow .btn-fav-star .star:hover{
+    color:rgb(243, 199, 6);
+}
+
+.overlay-send-doc{
+    position:fixed;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.send-doc{
+    width: 600px;
+    max-height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    overflow-y: auto;
+}
+
+.name-doc-flow{
+    display: flex;
+    padding: 1rem;
+    border-bottom:1px solid ;
+    align-items: center;
+}
+.name-doc-flow h3{
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.task-name{
+    padding: 1rem;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+}
+.task-name input{
+    margin-left:1rem;
+    width: 300px;
+    padding: 5px;
+}
+
+.send-pdf{
+    padding: 1rem;
+    border-bottom:1px solid ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.send-pdf .label{
+    margin-bottom: 0.5rem;
+}
+
+.file-upload-space{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.file-upload-space embed{
+}
+
+
+
+.file-upload-space div{
+    background-color: #e3e3e3;
+    border-radius: 5px ;
+    padding: 3px 1rem;
+    display: flex;
+    margin: 0 0 0.5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.file-upload-space .btn-del-file{
+    margin-left: 1rem;
+    border-radius: 50%;
+}
+
+.file-upload-space .btn-del-file:hover{
+    color:#282828;
+    background-color:#afafaf ;
+}
+
+.send-pdf label{
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #52B3B6;
+    color:#fff;
+    font-weight: 600;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.send-pdf label:hover{
+    background-color: #489b9e;
+    color:#e7e7e7;
+}
+
+.group-btn-doc{
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.group-btn-doc button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.group-btn-doc .btn-close{
+    background-color: #C03B11;
+    color: #e7e7e7;
+}
+.group-btn-doc .btn-close:hover{
+    background-color: #ae3510;
+    color: #fff;
+}
+
+.group-btn-doc .btn-confirm{
+    margin-left: 1rem;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.group-btn-doc .btn-confirm:hover{
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.add-text{
+    padding: 1rem 0;
+    border-bottom: 1px solid;
+}
+.add-other-file{
+    padding: 1rem 0;
+    border-bottom: 1px solid;
+}
+.box-add-text{
+    margin: 0 1rem;
+}
+.box-add-text .topic{
+    
+}
+
+.custom-other-file-upload-button {
+    background-color: #007bff;
+    color: #fff; 
+    padding: 4px 12px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 4px; 
+    font-size: 12px;
+  }
+  
+  .custom-other-file-upload-button:hover {
+    background-color: #0056b3; 
+  }
+
+.other-file-box{
+    background-color: #cacaca;
+    margin-left: 2px;
+    border-radius:4px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 5px;
+}
+.other-file-box .btn-del-file{
+    margin-left: 1rem;
+    border-radius: 50%;
+}
+
+.other-file-box .btn-del-file:hover{
+    color:#282828;
+    background-color:#afafaf ;
+}
+
+.input-add-text-user{
+    max-width: 400px;
+    width: 100%;
+    word-break: break-word;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    max-height: 500px;
+    border-radius: 10px;
+    overflow-y: auto;
+  }
+  
+  .table-column {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 8px;
+    font-weight: bold;
+  }
+  
+  .table-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+  }
+  
+  .table-row:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .table-none-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dddddd;
+    padding: 8px;
+  }
+
+  .table-row:hover {
+    background-color: #c5c5c5;
+  }
+  
+  .table-column > div, .table-row > div {
+    width: 25%;
+    padding: 8px;
+  }
+
+  .column-approval{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .steps-container {
+    display: flex;
+    /* width: 150px;
+    border:1px solid; */
+  }
+  
+  .step {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #D9D9D9;
+    justify-content: center;
+    border: 3px solid #000000;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .current-step {
+    background-color: #FFD600;
+    
+  }
+  .current-step:hover {
+    background-color: #ffd712;
+    border-color: #d7bb2f;
+  }
+  .completed-step{
+    background-color: #15ff00;
+  }
+  .completed-step:hover {
+    background-color: #26ff13;
+    border-color: #25ec13;
+  }
+
+  .failed-step{
+    background-color: #FB2A2A;
+  }
+  .failed-step:hover{
+    background-color: #fe4242;
+    border-color: #ea2929;
+  }
+  
+  .step:not(.current-step):not(.completed-step):not(.failed-step) {
+    background-color: lightgray;
+  }
+  
+  .step + .step {
+    /* margin-left: 10px; */
+  }
+
+  
+  .line-step{
+    width: 10px;
+    height: 3px;
+    background-color: #000000;
+  }
+
+  .approve-checkmark{
+    font-size: 15px;
+    color: #FFF;
+    background-color: #116DC0;
+    border: 1px solid #116DC0;
+    border-radius: 5px;
+    padding: 8px 16px; /* เพิ่ม padding เพื่อให้มีพื้นที่ตัวอักษร */
+    cursor: pointer; /* เปลี่ยน cursor เป็น pointer เมื่อนำเมาส์ไปชี้ */
+    transition: background-color 0.3s, color 0.3s; /* เพิ่ม transition เมื่อเมาส์ผ่านบนปุ่ม */
+  }
+  .approve-checkmark:hover{
+    color: #0a62af;
+    background-color: #0fa0ff; /* เปลี่ยนสีพื้นหลังเมื่อเมาส์ผ่านบนปุ่ม */
+  }
+
+  .approve-cross{
+    font-size: 15px;
+    color: #C03B11;
+    font-size: 15px;
+    color: #FFF;
+    background-color: #C03B11;
+    border: 1px solid #C03B11;
+    border-radius: 5px;
+    padding: 8px 16px; /* เพิ่ม padding เพื่อให้มีพื้นที่ตัวอักษร */
+    cursor: pointer; /* เปลี่ยน cursor เป็น pointer เมื่อนำเมาส์ไปชี้ */
+    transition: background-color 0.3s, color 0.3s; /* เพิ่ม transition เมื่อเมาส์ผ่านบนปุ่ม */
+  }
+  .approve-cross:hover{
+    color: #ad310b;
+    background-color: #ff847c;
+  }
+
+.alert-window{
+  height: 300px;
+  width: 500px;
+}
+
+.pdf-perview{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+}
+
+.font-detail{
+  font-size: 18px;
+  padding: 0.2rem 0;
+}
+
+.image-container {
+  /* กำหนดขนาดสำหรับคอนเทนเนอร์ภาพ */
+  max-width: 300px; /* เปลี่ยนเป็นขนาดที่คุณต้องการ */
+  max-height: 200px; /* หากคุณต้องการปรับขนาดอัตโนมัติ */
+}
+
+
+.filename-container{
+  background-color: #e3e3e3;
+    border-radius: 5px ;
+    padding: 3px 1rem;
+    display: flex;
+    margin: 0 0 0.5rem 0;
+    display: flex;
+    align-items: center;
+}

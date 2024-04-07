@@ -1,0 +1,164 @@
+.container-all{
+    /* height: 100vh; */
+    overflow-y: hidden;
+}
+.container{
+    background-color: #DBE2E9;
+    /* height: calc(100vh - 60px); */
+    height: 100%;
+    width: 260px;
+    max-height: 100%;
+    transition: 0.5s;
+}
+
+.container-narrow{
+    background-color: #DBE2E9;
+    height: calc(100vh - 60px);
+    max-height: 100%;
+    width: 50px;
+    transition: 0.5s;
+}
+.header{
+    display: flex;
+    background-color: #1070C6;
+    margin: auto;
+    padding: auto;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.headerAdmin{
+    display: flex;
+    background-color: #4F66AA;
+    margin: auto;
+    padding: auto;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.body{
+    display: flex;
+    height: calc(100vh - 60px);
+}
+.top-corner{
+    padding: 0.5rem 0 0.5rem 0.8rem;
+}
+
+.hamburgerMenu{
+    border-radius: 5px;
+    border: 2px solid #000;
+    padding:1px;
+    transition: all 0.3s;
+}
+.hamburgerMenu:hover{
+    background-color: #000000;
+    border: 2px solid #000;
+    color: aliceblue;
+    transition: all 0.3s;
+}
+
+.link{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #9f9f9f;
+    padding: 0.5rem 0em 0.5rem 1em;
+    transition: all 0.3s;
+}
+.link:hover{
+    color: aliceblue;
+    background-color: #1070C6;
+    transition: all 0.3s;
+}
+
+.linkAdmin{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #9f9f9f;
+    padding: 0.5rem 0em 0.5rem 1em;
+    transition: all 0.3s;
+}
+.linkAdmin:hover{
+    color: aliceblue;
+    background-color: #4F66AA;
+    transition: all 0.3s;
+}
+
+.boxDropdown{
+    position: absolute;
+    background-color: #DBE2E9;
+    top:45px;
+    border-top: 1px solid #9f9f9f ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.dropdownLogout{
+    display: flex;
+    width: 150px;
+    border-bottom: 1px solid #9f9f9f;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+    color: #000;
+    background-color: inherit;
+    transition: all 0.3s;
+}
+
+.dropdownLogout:hover{
+    color: #DBE2E9;
+    background-color: #000;
+}
+
+.titleName{
+    padding: 0 0 0 1em;
+    transition: 0.7s;
+}
+
+
+.btn-toggleLogOut{
+    color: #a3bacd;
+    border: 0px solid;
+    background-color: #000;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.btn-toggleLogOut:hover{
+    color: #a8d7fe;
+    background-color: #000;
+}
+
+.btn-toggleLogOut2{
+    color: #000;
+    border: 0px solid;
+    background-color: #a3bacd;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.btn-toggleLogOut2:hover{
+    color: #434343;
+    background-color: #a3bacd;
+
+}
+
+.textAdmin{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #FFF;
+}
+.logoAdmin{
+    padding: 1px;
+    border-radius: 3px;
+    border: 2px solid #FFF;
+    font-size: 24px;
+    color: #FFF;
+}

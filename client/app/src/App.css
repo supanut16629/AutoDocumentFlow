@@ -1,0 +1,126 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pageSignIn-Up{
+  display: flex;
+  height: 100vh;
+}
+.SignIn-UpComponent{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 380px;
+  width: 500px;
+  color: #000;
+  border-radius: 5px;
+  box-shadow: 0px 4px 5px rgba(177, 177, 177, 0.4);
+  background-color: #EBEBEB;
+  margin:auto;
+}
+.SignIn-UpComponent form{
+  width: 300px;
+  /* border: 1px solid; */
+}
+.SignIn-UpComponent form input{
+  border-radius: 5px;
+  width: 280px;
+  padding: 0.5rem;
+}
+
+.SignIn-UpComponent h4{
+  margin: 1rem auto;
+  font-weight: normal;
+}
+.btn-bottom{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+ 
+}
+.SignIn-UpComponent button{
+  margin: 2rem 0;
+  border: 0;
+  padding: 0 2rem;
+  border-radius: 5px;
+  color: #FFF;
+  font-weight: 600;
+  box-shadow: 0px 4px 5px rgba(177, 177, 177, 0.4);
+}
+
+.btn-SignUp{
+  background-color: #10CFD4;
+}
+
+.btn-SignUp:hover{
+  background-color: #20888b;
+}
+
+.btn-SignIn{
+  background-color: #116DC0;
+}
+
+.btn-SignIn:hover{
+  background-color: #1d507c;
+}
+
+.btn-Cancal{
+  background-color: #C03B11;
+}
+
+.btn-Cancal:hover{
+  background-color: #71301d;
+}
+
+#signUp{
+  height: 550px;
+}
+
+#signUp label p{
+  margin: 0.2rem 0;
+  border: 0px solid;
+}
+
+.passwordCondition{
+  font-size: 10px;
+  padding: 0 0.2rem;
+  color: #c31e15;
+  font-style: italic
+}

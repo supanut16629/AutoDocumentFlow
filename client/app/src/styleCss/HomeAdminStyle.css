@@ -1,0 +1,20 @@
+.container-home-admin{
+    display:flex;
+    /* background-color: #0000ED; */
+    width: calc(100vw - 260px);
+    flex-direction: column;
+    /* margin:1rem; */
+}
+
+.sub-container-flow{
+
+}
+
+.sub-container-relationship{
+    
+}
+
+.container-home-admin h1{
+    font-size: 25px;
+    margin: 1rem;
+}
